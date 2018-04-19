@@ -24,8 +24,8 @@ function movieThis(){
     if(!movie){
         movie = "mr nobody";
     }
-    params = movie
-    request("http://www.omdbapi.com/?apikey=trilogy&t=" + params + "&y=&plot=short&r=json&tomatoes=true", function (error, response, body) {
+    parameter = movie
+    request("http://www.omdbapi.com/?apikey=trilogy&t=" + parameter + "&y=&plot=short&r=json&tomatoes=true", function (error, response, body) {
         if (!error && response.statusCode == 200) {
             let movieObject = JSON.parse(body);
             
@@ -61,8 +61,8 @@ function myTweets() {
     if(!twitterUsername){
         twitterUsername = "gotta_fill_it";
     }
-    params = {screen_name: twitterUsername};
-    client.get("statuses/user_timeline/", params, function(error, data, response){
+    parameter = {screen_name: twitterUsername};
+    client.get("statuses/user_timeline/", parameter, function(error, data, response){
         if (!error) {
             for(var i = 0; i < data.length; i++) {
                 
@@ -86,8 +86,8 @@ function spotifyThisSong(songName) {
     if(!songName){
         songName = "The Sign";
     }
-    params = songName;
-    spotify.search({ type: "track", query: params }, function(err, data) {
+    parameter = songName;
+    spotify.search({ type: "track", query: parameter }, function(err, data) {
         if(!err){
             let songInfo = data.tracks.items;
             for (var i = 0; i < 5; i++) {
