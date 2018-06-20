@@ -8,7 +8,14 @@ LIRI uses Node.js in the command line of your computer and has dependencies for 
 
 The app features 4 different features using the node liri.js [command-here] syntax. Below are the command types...
 
-"my-tweets": 
-"spotify-this-song": 
+"my-tweets":
+![alt text](assets/my-tweets.png "My-Tweets Screen")
+
+"spotify-this-song":
+![alt text](assets/spotify-this.png "Spotify Screen")
+
 "movie-this": 
+![alt text](assets/movie-this.png "Movie-This Screen")
+
 "do-what-it-says":
+![alt text](assets/do-what-it-says.png "Do-What-It-Says Screen")
