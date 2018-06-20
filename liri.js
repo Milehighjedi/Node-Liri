@@ -111,4 +111,8 @@ switch (command) {
     };
 };
 
+<<<<<<< HEAD
 runCommand(); 
+=======
+runCommand(); 
+>>>>>>> a95360c9b83844c7e278aba0e2f2904c00d43eee
