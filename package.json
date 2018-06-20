@@ -1,5 +1,5 @@
 {
-  "name": "Node-Liri",
+  "name": "node-liri",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,11 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/Milehighjedi/Node-Liri.git"
   },
-  "keywords": [],
+  "keywords": [
+    "spotify",
+    "twitter",
+    "request"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Milehighjedi/Node-Liri/issues"
   },
-  "homepage": "https://github.com/Milehighjedi/Node-Liri#readme"
+  "homepage": "https://github.com/Milehighjedi/Node-Liri#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
+    "request": "^2.87.0",
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  }
 }
